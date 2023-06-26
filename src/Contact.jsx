@@ -1,3 +1,6 @@
+import linkedinIcon from "./src/images/linkedin (1).svg";
+import gitHubIcon from "./src/images/square-github (1).svg";
+import mailIcon from "./src/images/envelope-solid (1).svg";
 const Contact = () => {
   return (
     <section className="footer">
@@ -9,7 +12,7 @@ const Contact = () => {
             target={"_blank"}
           >
             <img
-              src="./src/images/linkedin (1).svg"
+              src={linkedinIcon}
               alt="This is Linkedin icon"
               className="logo"
               width={50}
@@ -24,7 +27,7 @@ const Contact = () => {
             target={"_blank"}
           >
             <img
-              src="./src/images/square-github (1).svg"
+              src={gitHubIcon}
               alt="This is GitHub icon"
               className="logo"
               width={50}
@@ -35,7 +38,7 @@ const Contact = () => {
         <li className="contact">
           <a href="mailto:marianraileanu37@gmail.com" className="contact-link">
             <img
-              src="./src/images/envelope-solid (1).svg"
+              src={mailIcon}
               alt="This is email logo"
               className="logo"
               width={50}
