@@ -1,4 +1,4 @@
-import linkedinIcon from "./marian-raileanu/src/images/linkedin (1).svg";
+import linkedinIcon from "./images/linkedin (1).svg";
 import gitHubIcon from "./src/images/square-github (1).svg";
 import mailIcon from "./src/images/envelope-solid (1).svg";
 const Contact = () => {
