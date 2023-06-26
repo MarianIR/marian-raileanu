@@ -1,0 +1,30 @@
+.footer {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  @media (min-width: 768px) {
+    height: 20vh;
+    padding: 2rem 10rem 2rem 10rem;
+  }
+  @media (min-width: 1366px) {
+    padding: 2rem 20rem 2rem 20rem;
+  }
+  .contact-list {
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 2rem 0;
+    .contact {
+      list-style: none;
+      margin-right: 3rem;
+      .contact-link {
+        text-decoration: none;
+        .logo {
+          width: 4rem;
+          height: 4rem;
+        }
+      }
+    }
+  }
+}

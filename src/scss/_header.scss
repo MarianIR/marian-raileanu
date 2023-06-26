@@ -1,0 +1,110 @@
+// .header {
+//   width: 100%;
+//   background-color: #141010;
+//   height: 8rem;
+//   display: flex;
+//   flex-direction: row;
+//   position: fixed;
+//   .menu-box {
+//     padding: 0 2rem 2rem 2rem;
+//     margin: 3rem 0 0 auto;
+//     @media (min-width: 768px) {
+//       display: none;
+//     }
+//     .open-menu-btn {
+//       filter: brightness(0) invert(1);
+//       width: 2.5rem;
+//       height: 2rem;
+//       cursor: pointer;
+//     }
+//     .close-menu-btn {
+//       filter: brightness(0) invert(1);
+//       cursor: pointer;
+//     }
+//   }
+//   .navigation {
+//     // display: none;
+//     position: absolute;
+//     margin-top: 8rem;
+//     left: 0;
+//     right: 0;
+//     text-align: left;
+//     padding: 6rem 2rem 2rem 2rem;
+//     background-color: #141010;
+//     animation: fromLeftToRight 0.5s ease-in-out;
+//     @media (min-width: 768px) {
+//       width: 100%;
+//       height: 100%;
+//       display: flex;
+//       flex-direction: row;
+//       align-items: center;
+//       justify-content: flex-end;
+//       margin: 0;
+//       padding: 0;
+//       position: relative;
+//       background-color: transparent;
+//     }
+//     .nav-list {
+//       @media (min-width: 768px) {
+//         height: 50%;
+//         width: 100%;
+//         max-width: 80rem;
+//         height: auto;
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: flex-end;
+//         justify-content: space-around;
+//         animation: fromLeftToRight 0.5s ease-in-out;
+//       }
+//       .list-item {
+//         list-style: none;
+//         padding: 2rem 0;
+//         @media (min-width: 768px) {
+//           padding: 0;
+//         }
+//         .list-link {
+//           color: #f2f2f2;
+//           text-decoration: none;
+//           font-size: 2.5rem;
+//           &:hover {
+//             color: #f96d00;
+//             transition: all 0.3s ease-in-out;
+//             text-decoration: underline 0.3s;
+//           }
+//           @media (min-width: 768px) {
+//             &:hover {
+//               &::after {
+//                 // content: "";
+//                 // position: absolute;
+//                 // display: block;
+//                 // margin: 0 auto;
+//                 // bottom: -1rem;
+//                 // left: 0;
+//                 // right: 0;
+//                 // width: 50%; /* Adjust the width as needed */
+//                 // height: 0.3rem; /* Set the desired thickness */
+//                 // background-color: $primaryColor1; /* Set the desired color */
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+//   @keyframes fromLeftToRight {
+//     from {
+//       transform: translateX(-100%);
+//     }
+//     to {
+//       transform: translateX(0);
+//     }
+//   }
+//   // @keyframes fromTopToBottom {
+//   //   from {
+//   //     transform: translateY(-200%);
+//   //   }
+//   //   to {
+//   //     transform: translateY(0);
+//   //   }
+//   // }
+// }
