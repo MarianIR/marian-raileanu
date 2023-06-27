@@ -22,6 +22,7 @@
       color: #141010;
       font-size: clamp(2.5rem, 6vw, 5rem);
       padding-bottom: 1rem;
+      animation: fromLeftToRight 0.3s ease-in-out;
       padding-bottom: 2rem;
     }
     .about-me-paragraph {
@@ -29,12 +30,14 @@
       font-size: clamp(1.6rem, 6vw, 2rem);
       line-height: 1.5;
       letter-spacing: 0.1rem;
+      animation: fromLeftToRight 0.3s ease-in-out;
     }
   }
   .skills {
     .skills-heading {
       color: #141010;
       font-size: clamp(2.5rem, 6vw, 5rem);
+      animation: fromLeftToRight 0.3s ease-in-out;
       padding: 2rem 0 2rem 0;
       @media (min-width: 1024px) {
         padding-top: 0;
