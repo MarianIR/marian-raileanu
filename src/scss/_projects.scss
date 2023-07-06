@@ -67,4 +67,12 @@
       transition: 0.3s all ease-in-out;
     }
   }
+  @keyframes fromLeftToRight {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
 }

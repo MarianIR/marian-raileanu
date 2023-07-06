@@ -204,6 +204,58 @@ html {
   color: #f2f2f2;
   transition: 0.3s all ease-in-out;
 }
+@keyframes fromLeftToRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.certifications-section {
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: left;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .certifications-section {
+    padding: 0 10rem 0 10rem;
+  }
+}
+@media (min-width: 1366px) {
+  .certifications-section {
+    padding: 2rem 20rem 2rem 20rem;
+  }
+}
+.certifications-section .certifications-heading {
+  color: #141010;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  padding: 2rem 0 2rem 0;
+}
+.certifications-section .certifications-container {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  gap: 2rem;
+  grid-template-columns: auto;
+}
+@media (min-width: 768px) {
+  .certifications-section .certifications-container {
+    grid-template-columns: auto auto;
+  }
+}
+@media (min-width: 1366px) {
+  .certifications-section .certifications-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+.certifications-section .certifications-container .certification-image {
+  max-width: 40rem;
+  width: 100%;
+  height: auto;
+  border: 0.1rem solid #000;
+}
 
 .footer {
   background-color: #f2f2f2;

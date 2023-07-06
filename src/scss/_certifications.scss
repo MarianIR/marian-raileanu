@@ -1,0 +1,35 @@
+.certifications-section {
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: left;
+  width: 100%;
+  @media (min-width: 768px) {
+    padding: 0 10rem 0 10rem;
+  }
+  @media (min-width: 1366px) {
+    padding: 2rem 20rem 2rem 20rem;
+  }
+  .certifications-heading {
+    color: #141010;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    padding: 2rem 0 2rem 0;
+  }
+  .certifications-container {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    gap: 2rem;
+    grid-template-columns: auto;
+    @media (min-width: 768px) {
+      grid-template-columns: auto auto;
+    }
+    @media (min-width: 1366px) {
+      grid-template-columns: auto auto auto;
+    }
+    .certification-image {
+      max-width: 40rem;
+      width: 100%;
+      height: auto;
+      border: 0.1rem solid #000;
+    }
+  }
+}
