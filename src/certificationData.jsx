@@ -1,15 +1,18 @@
+import certificationOne from "/src/images/certification-one.png";
+import certificationTwo from "/src/images/certification-two.png";
+import certificationThree from "/src/images/certification-three.png";
 const certificationData = [
   {
     id: 1,
-    img: "./src/images/certification-one.png",
+    img: certificationOne,
   },
   {
     id: 2,
-    img: "./src/images/certification-two.png",
+    img: certificationTwo,
   },
   {
     id: 3,
-    img: "./src/images/certification-three.png",
+    img: certificationThree,
   },
 ];
 
