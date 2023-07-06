@@ -231,7 +231,7 @@ html {
 .certifications-section .certifications-heading {
   color: #141010;
   font-size: clamp(2.5rem, 6vw, 5rem);
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 5rem 0;
 }
 .certifications-section .certifications-container {
   width: 100%;
@@ -239,6 +239,7 @@ html {
   justify-items: center;
   gap: 2rem;
   grid-template-columns: auto;
+  padding-bottom: 5rem;
 }
 @media (min-width: 768px) {
   .certifications-section .certifications-container {
