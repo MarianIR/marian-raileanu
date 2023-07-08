@@ -237,6 +237,7 @@ html {
   width: 100%;
   display: grid;
   justify-items: center;
+  align-items: stretch;
   gap: 2rem;
   grid-template-columns: auto;
   padding-bottom: 5rem;
