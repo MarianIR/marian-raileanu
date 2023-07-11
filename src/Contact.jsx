@@ -7,7 +7,7 @@ const Contact = () => {
       <ul className="contact-list">
         <li className="contact">
           <a
-            href="https://www.linkedin.com/in/marian-irinel-raileanu-1a4088206/"
+            href="https://www.linkedin.com/in/marian-raileanu-1a4088206/"
             className="contact-link"
             target={"_blank"}
           >
