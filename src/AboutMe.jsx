@@ -20,8 +20,8 @@ const AboutMe = () => {
           <li className="skill">CSS</li>
           <li className="skill">SCSS</li>
           <li className="skill">Bootstrap</li>
-          <li className="skill">JavaScript</li>
-          <li className="skill">React JS</li>
+          <li className="skill">JavaScript (beginner)</li>
+          <li className="skill">React JS (beginner)</li>
           <li className="skill">Git & GitHub</li>
         </ul>
       </div>
