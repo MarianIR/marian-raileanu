@@ -1,5 +1,10 @@
 const projectsData = [
   {
+    id: 0,
+    link: "https://beautiful-babka-d87e56.netlify.app",
+    title: "Manage landing page master",
+  },
+  {
     id: 1,
     link: "https://superb-crostata-aaa5e1.netlify.app/",
     title: "Room homepage master",
