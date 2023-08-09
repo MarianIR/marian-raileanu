@@ -1,5 +1,9 @@
 const projectsData = [
   {
+    link: "https://clever-cannoli-89994e.netlify.app/",
+    title: "Space tourism",
+  },
+  {
     id: 0,
     link: "https://beautiful-babka-d87e56.netlify.app",
     title: "Manage landing page master",
